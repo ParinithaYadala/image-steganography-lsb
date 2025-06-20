@@ -60,4 +60,5 @@ python run_me_stegano_gui.py
 ## 👩‍💻 Author
 
 Parinitha Yadala  
+VNR VJIET
 **EDUNET FOUNDATION - IBM SKILLSBUILD - CYBER SECURITY - 6 WEEKS INTERNSHIP MAY 2025**

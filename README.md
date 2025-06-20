@@ -1,34 +1,63 @@
-# Image Steganography using LSB (Python Project)
+# 🔐 Image Steganography using LSB
 
-This project hides and retrieves secret text messages within PNG images using Least Significant Bit (LSB) steganography.
+This Python project hides and retrieves secret messages inside PNG images using Least Significant Bit (LSB) steganography.  
+Includes both **command-line interface (CLI)** and **Tkinter-based GUI**.
+
+---
 
 ## 💻 Features
 
-- Encode and decode messages using **Python**
-- CLI version using `encode.py` and `decode.py`
-- GUI version using **Tkinter**
-- Messages are hidden without altering the image visually
-- 8-bit end marker used to detect end of message
+- Hide secret text messages inside an image  
+- Modify LSB of pixel values (spatial domain)  
+- 8-bit end marker to stop reading hidden message  
+- No visible change to the image  
+- GUI for easy interaction and CLI for testing
 
-## 📁 Files Included
+---
 
-- `encode.py` – Command-line encoder
-- `decode.py` – Command-line decoder
-- `run_me_stegano_gui.py` – GUI version using Tkinter
-- `input.png` – Sample input image
-- `output.png` – Output image (optional)
-- `screenshots/` – GUI & terminal outputs
+## 📁 Files in This Project
+
+- `encode.py` – CLI script to hide message in image  
+- `decode.py` – CLI script to extract message  
+- `run_me_stegano_gui.py` – GUI version using Tkinter  
+- `input.png` – Sample input image  
+- `output.png` – Encoded output image  
+- `screenshots/` – Folder with GUI and CLI screenshots
+
+---
+
+## ▶️ How to Run
+
+CLI Version:  
+python encode.py  
+python decode.py  
+
+GUI Version:  
+python run_me_stegano_gui.py
+
+---
 
 ## 🖼️ Screenshots
 
-![Encoding CLI](screenshots/encode.png)  
-![Decoding CLI](screenshots/decode.png)  
-![GUI Success](screenshots/gui_success.png)  
-![GUI Decoded Message](screenshots/gui_output.png)  
-![File Selection](screenshots/gui_file_picker.png)
+> Add 5 screenshots inside a folder called `screenshots`
 
-## 🚀 How to Run
+- ![Encode CLI](screenshots/encode_cli.png)  
+- ![Decode CLI](screenshots/decode_cli.png)  
+- ![GUI Message Entry](screenshots/gui_message.png)  
+- ![GUI Encode Success](screenshots/gui_success.png)  
+- ![GUI Decoded Message](screenshots/gui_decoded.png)
 
-### ▶ CLI Version
-python encode.py
-python decode.py
+---
+
+## 📚 References
+
+- https://en.wikipedia.org/wiki/Steganography   
+- https://pillow.readthedocs.io/   
+- https://www.geeksforgeeks.org/image-based-steganography-using-python/ 
+
+---
+
+## 👩‍💻 Author
+
+Parinitha Yadala  
+2025 Cybersecurity Mini Project – VNR VJIET
